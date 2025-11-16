@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF59D"
+    tools:context=".MainActivity">
+
+    <!-- App Name / Logo -->
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo1"
+        android:contentDescription="App logo" />
+
+    <!-- Search Field -->
+    <EditText
+        android:id="@+id/search_field"
+        android:hint="Search by title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <!-- Go Button -->
+    <Button
+        android:id="@+id/go_btn"
+        android:text="Go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF9800"/>
+
+
+    <!-- Show All Button -->
+    <Button
+        android:id="@+id/show_all_btn"
+        android:text="Show All"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF9800"/>
+
+    <!-- Add New Button -->
+    <Button
+        android:id="@+id/add_new_btn"
+        android:text="Add New"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF9800"/>
+
+</LinearLayout>
